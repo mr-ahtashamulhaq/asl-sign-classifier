@@ -18,3 +18,5 @@ notebooks/src/.venv/
 src\__pycache__/
 
 pyrightconfig.json
+Hackathon_Guide.pdf
+sample_submission.csv
