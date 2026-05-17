@@ -14,10 +14,7 @@ from PIL import Image
 from tqdm.auto import tqdm
 
 # ───────────────────────  DATASET PATHS ─────────────────────────────────────
-# Path confirmed from Kaggle input panel:
-#   competition_data/competition_data/train/   (~70K images, 29 class folders)
-#   competition_data/competition_data/test/    (~17K images, flat)
-#   sample_submission.csv                      (one level above competition_data/competition_data)
+
 COMPETITION_ROOT = "/kaggle/input/competitions/the-silent-gap-asl-sign-language-challenge"
 DATA_DIR         = f"{COMPETITION_ROOT}/competition_data/competition_data"
 SAMPLE_SUB_PATH  = f"{COMPETITION_ROOT}/sample_submission.csv"   # correct location
