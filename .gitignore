@@ -1,22 +1,48 @@
+# ── Virtual Environments ─────────────────────────────────────────────────────
 venv/
-.vscode/
 .venv/
-data/
-src/__pycache__/
-notebooks/__pycache__/
-notebooks/.ipynb_checkpoints/
-notebooks/.vscode/
-notebooks/.venv/
-notebooks/data/
-notebooks/src/__pycache__/
-notebooks/src/.vscode/
-notebooks/src/.venv/
-notebooks/src/data/
-notebooks/src/__pycache__/
-notebooks/src/.vscode/
-notebooks/src/.venv/
-src\__pycache__/
 
+# ── IDE / Editor ──────────────────────────────────────────────────────────────
+.vscode/
+.idea/
 pyrightconfig.json
-Hackathon_Guide.pdf
+
+# ── Python cache ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ── Jupyter Notebooks ─────────────────────────────────────────────────────────
+# Notebooks are committed separately on Kaggle — not tracked here
+*.ipynb
+.ipynb_checkpoints/
+
+# ── Data ──────────────────────────────────────────────────────────────────────
+data/
+*.csv.gz
+*.zip
+*.tar.gz
+
+# ── Submissions ───────────────────────────────────────────────────────────────
+# submission CSVs are not pushed until after hackathon ends
+submission.csv
 sample_submission.csv
+submissions/*.csv
+
+# ── Model Checkpoints ─────────────────────────────────────────────────────────
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+
+# ── Logs / Outputs ────────────────────────────────────────────────────────────
+logs/
+*.log
+runs/
+training_curve.png
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
